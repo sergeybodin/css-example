@@ -1,0 +1,249 @@
+p {
+    font-weight: bold;
+}
+
+div {
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.row {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: 16.66666665%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.height-1 {
+    min-height: 10%;
+    max-height: 100%;
+}
+
+.f-small {
+    font-size: small;
+}
+
+.f-medium {
+    font-size: medium;
+}
+
+.f-large {
+    font-size: large;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-direction_row {
+    flex-direction: row;
+}
+
+.flex-direction_row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-direction_column {
+    flex-direction: column;
+}
+
+.flex-direction_column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-wrap_nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap_wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap_wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.justify-content_flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content_flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content_center {
+    justify-content: center;
+}
+
+.justify-content_space-between {
+    justify-content: space-between;
+}
+
+.justify-content_space-around {
+    justify-content: space-around;
+}
+
+.justify-content_space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-items_flex-start {
+    align-items: flex-start;
+}
+
+.align-items_flex-end {
+    align-items: flex-end;
+}
+
+.align-items_flex-center {
+    align-items: center;
+}
+
+.align-items_flex-stretch {
+    align-items: stretch;
+}
+
+.align-items_flex-baseline {
+    align-items: baseline;
+}
+
+.align-content_flex-start {
+    align-content: flex-start;
+}
+
+.align-content_flex-end {
+    align-content: flex-end;
+}
+
+.align-content_center {
+    align-content: center;
+}
+
+.align-content_stretch {
+    align-content: stretch;
+}
+
+.align-content_space-between {
+    align-content: space-between;
+}
+
+.align-content_space-around {
+    align-content: space-around;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.flex-grow_1 {
+    flex-grow: 1;
+}
+
+.flex-grow_2 {
+    flex-grow: 2;
+}
+
+.flex-grow_3 {
+    flex-grow: 3;
+}
+
+.flex-grow_4 {
+    flex-grow: 4;
+}
+
+.flex-shrink_0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink_1 {
+    flex-shrink: 1;
+}
+
+/* текст обрезается до размера облати */
+.text-overflow_clip {
+    text-overflow: clip;
+}
+
+/* текст обрезается до размера облати и к концу добавляется ... */
+.text-overflow_ellipsis {
+    text-overflow: ellipsis;
+}
+
+/* отключает перенос текста */
+.white-space_nowrap {
+    white-space: nowrap;
+}
+
+/* скрывает то что выходит за область блока */
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.line_1 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.line_1:hover {
+    flex-shrink: 0;
+    transition: all 0.5s;
+}
+
+.flex-basis_0 {
+    flex-basis: 0%;
+}
+
+.flex-basis_100 {
+    flex-basis: 100%;
+}
+
+.flex-basis_auto {
+    flex-basis: auto;
+}
+
+.align-self_flex-auto {
+    align-self: auto;
+}
+
+.align-self_flex-start {
+    align-self: flex-start;
+}
+
+.align-self_flex-end {
+    align-self: flex-end;
+}
+
+.align-self_flex-center {
+    align-self: center;
+}
+
+.align-self_flex-baseline {
+    align-self: baseline;
+}
+
+.align-self_flex-stretch {
+    align-self: stretch;
+}
