@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+[class^="box"] {
+    /* Размещаем контейнеры по центру */
+    display: grid;
+    place-items: center;
+}
+
+.container-1 [class^="box"] {
+    background-color: skyblue;
+}
+
+.container-2 [class^="box"] {
+    background-color: deepskyblue;
+}
+
+.container-3 [class^="box"] {
+    background-color: lightskyblue;
+}
+
+.container-4 [class^="box"] {
+    background-color: lightseagreen;
+}
+
+.container-5 [class^="box"] {
+    background-color: lightsteelblue;
+}
+
+.container-6 [class^="box"] {
+    background-color: steelblue;
+}
+
+.container-7 [class^="box"] {
+    background-color: paleturquoise;
+}
+
+.container-8 [class^="box"] {
+    background-color: aqua;
+}
+
+.container-9 [class^="box"] {
+    background-color: aquamarine;
+}
+
+.container-10 [class^="box"] {
+    background-color: darkcyan;
+}
+
+.title {
+    display: flex;
+    height: 10vh;
+    margin-left: 2.5vh;
+}
+.title div {
+    align-self: center;
+}
+
+[class^="container-"] {
+    display: grid;
+    gap: 10px 50px;
+    height: 90vh;
+}
+
+.container-1 {
+    grid-template-rows: 10vh auto 20vh;
+}
+
+.container-2 {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.container-3 {
+    grid-template-columns: 200px auto 100px;
+}
+
+.container-4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-5 {
+    grid-template-areas: "A A A A   A A A A   A A A A" "B B B B   B B B B   B B C C" "B B B B   B B B B   B B C C";
+}
+
+.box-1 {
+    grid-area: A;
+}
+
+.box-2 {
+    grid-area: B;
+}
+
+.box-3 {
+    grid-area: C;
+}
+
+.container-6 {
+    grid-template-columns: 100px 100px 100px;
+}
+
+.container-7 {
+    grid-template-rows: 100px 100px 100px;
+    height: auto;
+}
+
+.container-8 {
+    grid-template: 5vh auto / 5vh auto;
+    justify-items: auto;
+}
+
+.container-9 {
+    grid-template: repeat(5, 30px) / 300px repeat(9, 1fr);
+    column-gap: 10px;
+    height: auto;
+}
+.container-10 {
+    grid-template-columns: 2fr 3fr 7fr;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas:"A A B" "C D B" "E E E";
+    column-gap: 10px;
+}
+.box-4 {
+    grid-area: A;
+}
+.box-5 {
+    grid-area: B;
+}
+.box-6 {
+    grid-area: C;
+}
+.box-7 {
+    grid-area: D;
+}
+.box-8 {
+    grid-area: E;
+}
