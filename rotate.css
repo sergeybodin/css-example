@@ -1,0 +1,27 @@
+body {
+    background-color: #fff;
+    color: #000;
+    padding: 80px;
+}
+
+.grid {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.grid > * {
+    aspect-ratio: 1 / 1;
+    transform: rotate(0.1turn);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0.5688777464110644) 100%);
+    color: #fff;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.grid > *:nth-child(odd) {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,138,252,0.5688777464110644) 100%);
+}
